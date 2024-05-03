@@ -1,5 +1,5 @@
 package com.example.aidar_badirov_hw_2_7;
-
+//КОМЕНТАРИЙ ДЛЯ ИЗМЕНЕНИЯ
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     // обработка нажатия на кнопку операции
     public void onOperationClick(String op){
         String number = numberField.getText().toString();
-        if (number.length() > 0){
+        if (number.length()>0){
             number = number.replace(',', '.');
             try {
                 performOperation(Double.valueOf(number), op);
